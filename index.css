@@ -1,0 +1,64 @@
+body {
+    background-image: url('frontimage.jpg');
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#voting-section {
+    text-align: center;
+}
+
+#candidates-list {
+    list-style: none;
+    padding: 0;
+}
+
+#candidates-list li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#candidates-list li:hover {
+    background-color: #ddd;
+}
+
+button {
+    background-color: #d5d5d5;
+    color: rgb(200, 20, 20);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:disabled {
+    background-color: #aaa;
+}
+
+#voting-status {
+    margin-top: 20px;
+    color: red;
+}

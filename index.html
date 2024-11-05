@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Decentralized Voting System</h1>
+            <p>Connected Account: <span id="account">Not connected</span></p>
+        </header>
+        
+        <section id="voting-section">
+            <h2>Available Candidates</h2>
+            <ul id="candidates-list">
+                <!-- Candidates will be dynamically populated here -->
+            </ul>
+            <button id="vote-btn" disabled>Vote</button>
+            <p id="voting-status"></p>
+        </section>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script> -->
+    <script src="index.js"></script>
+</body>
+</html>
